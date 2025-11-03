@@ -4,7 +4,6 @@ namespace Recca\ChineseMilitaryNumber;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Recca\ChineseMilitaryNumber\Commands\ChineseMilitaryNumberCommand;
 
 class ChineseMilitaryNumberServiceProvider extends PackageServiceProvider
 {

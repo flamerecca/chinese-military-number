@@ -13,7 +13,7 @@ class ChineseMilitaryNumber
      * 範例:
      * format("0912") => "洞勾么兩"
      *
-     * @param int|string $number 需要被轉換的數字或數字字串
+     * @param  int|string  $number  需要被轉換的數字或數字字串
      */
     public function format(int|string $number): string
     {
