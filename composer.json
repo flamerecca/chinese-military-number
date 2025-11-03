@@ -1,12 +1,12 @@
 {
-    "name": "recca/chinesemilitarynumber",
+    "name": "recca/chinese-military-number",
     "description": "將數字轉換成中文軍用數字",
     "keywords": [
         "recca",
         "laravel",
         "chinesemilitarynumber"
     ],
-    "homepage": "https://github.com/flamerecca/chinesemilitarynumber",
+    "homepage": "https://github.com/flamerecca/chinese-military-number",
     "license": "MIT",
     "authors": [
         {
