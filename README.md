@@ -1,8 +1,8 @@
 # 中文軍用數字
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/recca/chinesemilitarynumber.svg?style=flat-square)](https://packagist.org/packages/recca/chinesemilitarynumber)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/flamerecca/chinesemilitarynumber/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/flamerecca/chinesemilitarynumber/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/flamerecca/chinesemilitarynumber/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/flamerecca/chinesemilitarynumber/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/flamerecca/chinese-military-number/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/flamerecca/chinese-military-number/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/flamerecca/chinese-military-number/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/flamerecca/chinese-military-number/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/recca/chinesemilitarynumber.svg?style=flat-square)](https://packagist.org/packages/recca/chinesemilitarynumber)
 
 將數字轉換成中文軍用數字
