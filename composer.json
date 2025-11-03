@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "flamerecca/chinesemilitarynumber",
+    "description": "將數字轉換成中文軍用數字",
     "keywords": [
-        ":vendor_name",
+        "recca",
         "laravel",
-        ":package_slug"
+        "chinesemilitarynumber"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/flamerecca/chinesemilitarynumber",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "recca",
+            "email": "flamerecca711@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Recca\\ChineseMilitaryNumber\\": "src/",
+            "Recca\\ChineseMilitaryNumber\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Recca\\ChineseMilitaryNumber\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Recca\\ChineseMilitaryNumber\\ChineseMilitaryNumberServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ChineseMilitaryNumber": "Recca\\ChineseMilitaryNumber\\Facades\\ChineseMilitaryNumber"
             }
         }
     },
