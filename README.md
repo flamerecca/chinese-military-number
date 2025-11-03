@@ -1,9 +1,9 @@
 # 中文軍用數字
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/flamerecca/chinesemilitarynumber.svg?style=flat-square)](https://packagist.org/packages/flamerecca/chinesemilitarynumber)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/recca/chinesemilitarynumber.svg?style=flat-square)](https://packagist.org/packages/recca/chinesemilitarynumber)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/flamerecca/chinesemilitarynumber/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/flamerecca/chinesemilitarynumber/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/flamerecca/chinesemilitarynumber/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/flamerecca/chinesemilitarynumber/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/flamerecca/chinesemilitarynumber.svg?style=flat-square)](https://packagist.org/packages/flamerecca/chinesemilitarynumber)
+[![Total Downloads](https://img.shields.io/packagist/dt/recca/chinesemilitarynumber.svg?style=flat-square)](https://packagist.org/packages/recca/chinesemilitarynumber)
 
 將數字轉換成中文軍用數字
 
@@ -20,40 +20,14 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require flamerecca/chinesemilitarynumber
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="chinesemilitarynumber-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="chinesemilitarynumber-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="chinesemilitarynumber-views"
+composer require recca/chinesemilitarynumber
 ```
 
 ## Usage
 
 ```php
 $chineseMilitaryNumber = new Recca\ChineseMilitaryNumber();
-echo $chineseMilitaryNumber->echoPhrase('Hello, Recca!');
+echo $chineseMilitaryNumber->format('0912'); // 洞勾么兩
 ```
 
 ## Testing
