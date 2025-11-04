@@ -13,7 +13,7 @@ We invest a lot of resources into creating [best in class open source packages](
 
 We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
-## Installation
+## 安裝
 
 You can install the package via composer:
 
@@ -21,11 +21,19 @@ You can install the package via composer:
 composer require recca/chinese-military-number
 ```
 
-## Usage
+## 使用
 
+### 數字轉換
 ```php
 $chineseMilitaryNumber = new Recca\ChineseMilitaryNumber();
 echo $chineseMilitaryNumber->format('0912'); // 洞勾么兩
+```
+### 時間轉換
+
+```php
+$chineseMilitaryTime = new Recca\ChineseMilitaryTime();
+$time = Carbon::create(2025, 1, 1, 9, 17, 0);
+echo $chineseMilitaryTime->fromCarbon($time); // 洞勾么拐
 ```
 
 ## Testing
