@@ -15,8 +15,6 @@ class ChineseMilitaryTime
 
     /**
      * Carbon 物件轉換成軍用時間
-     * @param Carbon $time
-     * @return string
      */
     public function fromCarbon(Carbon $time): string
     {
@@ -26,7 +24,6 @@ class ChineseMilitaryTime
 
     /**
      * 現在時間轉換成軍用時間
-     * @return string
      */
     public function now(): string
     {
