@@ -35,6 +35,13 @@ $chineseMilitaryTime = new Recca\ChineseMilitaryTime();
 $time = Carbon::create(2025, 1, 1, 9, 17, 0);
 echo $chineseMilitaryTime->fromCarbon($time); // 洞勾么拐
 ```
+使用現在時間
+
+```php
+// 假設現在時間 12:00
+$chineseMilitaryTime = new Recca\ChineseMilitaryTime();
+echo $chineseMilitaryTime->now(); // 么兩洞洞
+```
 
 ## Testing
 
