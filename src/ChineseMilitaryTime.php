@@ -15,10 +15,21 @@ class ChineseMilitaryTime
 
     /**
      * Carbon 物件轉換成軍用時間
+     * @param Carbon $time
+     * @return string
      */
     public function fromCarbon(Carbon $time): string
     {
         return $this->chineseMilitaryNumber->format($time->format('H'))
             .$this->chineseMilitaryNumber->format($time->format('i'));
+    }
+
+    /**
+     * 現在時間轉換成軍用時間
+     * @return string
+     */
+    public function now(): string
+    {
+        return $this->fromCarbon(Carbon::now());
     }
 }

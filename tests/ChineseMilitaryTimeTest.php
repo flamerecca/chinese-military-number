@@ -30,3 +30,13 @@ it('converts 23:59 to Chinese military time', function () {
 
     expect($t->fromCarbon($time))->toBe('兩三五勾');
 });
+
+it('converts now() to Chinese military time', function () {
+    Carbon::setTestNow(Carbon::create(2025, 1, 1, 14, 5, 0));
+
+    $t = new ChineseMilitaryTime;
+
+    expect($t->now())->toBe('么四洞五');
+
+    Carbon::setTestNow();
+});
